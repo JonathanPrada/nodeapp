@@ -6,7 +6,7 @@ const app = express();
 
 // route
 app.get('/', (req, res) => {
-    res.send({hi: 'there'});
+    res.send({hashtag: 'devslife'});
 });
 
 // Heroku configuration, Look at the enviroment variable and use it
